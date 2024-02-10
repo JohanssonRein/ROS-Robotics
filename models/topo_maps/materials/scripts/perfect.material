@@ -1,0 +1,38 @@
+material perfect_material
+{
+    receive_shadows off
+
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture perfect_texture_01.png
+                //filtering none
+                //filtering linear
+                //filtering trilinear
+                //filtering anisotropic
+                //max_anisotropy 8
+                //filtering mipmapped
+
+                //scale 1 1
+                //padding 0.5
+                
+                //u_repeat 1
+                //v_repeat 1
+                
+                //repeat_u false
+                //repeat_v false     
+                //wrap clamp
+                //wrap_s clamp
+                //wrap_t clamp
+                
+
+                //scale 1 1
+                // set wrap to "clamp" to prevent tiling
+                //wrap s_clamp t_clamp        
+            }
+        }
+    }
+}
